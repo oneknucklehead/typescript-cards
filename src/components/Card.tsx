@@ -88,7 +88,9 @@ const Card: FC<CardProps> = ({
             alignItems='center'
             mt={3}
           >
-            <Text fontWeight='semibold'>{userId}</Text>
+            <Text fontWeight='semibold' color={'#fff'}>
+              {userId}
+            </Text>
             <Flex gap='2' fontWeight='semibold' alignItems='center'>
               <Icon
                 as={AiFillHeart}
@@ -97,7 +99,7 @@ const Card: FC<CardProps> = ({
                 onClick={() => setLikeActive(!likeActive)}
                 color={`${likeActive ? '#FF647F' : 'gray.500'}`}
               />
-              <Text>{likes}</Text>
+              <Text color={'#fff'}>{likes}</Text>
             </Flex>
           </Flex>
           <Text color='blue.300'>{userName}</Text>
@@ -112,7 +114,7 @@ const Card: FC<CardProps> = ({
               <Text fontSize='14px' fontWeight='semibold' color='#7CFC00'>
                 HIGHEST BID
               </Text>
-              <Text fontSize='18px' fontWeight='bold'>
+              <Text color={'#fff'} fontSize='18px' fontWeight='bold'>
                 {bidPrice}
               </Text>
             </Box>
@@ -126,7 +128,7 @@ const Card: FC<CardProps> = ({
               <Text fontSize='14px' fontWeight='semibold' color='blue.200'>
                 AUCTION ENDS IN
               </Text>
-              <Text fontSize='18px' fontWeight='bold'>
+              <Text color={'#fff'} fontSize='18px' fontWeight='bold'>
                 <CountDownTimer
                   days={days}
                   hours={hours}
@@ -147,6 +149,7 @@ const Card: FC<CardProps> = ({
                 fontSize='14px'
                 px='3'
                 py='5'
+                color={'#fff'}
               >
                 {btns[1]}
               </Button>
@@ -161,6 +164,7 @@ const Card: FC<CardProps> = ({
                 border='1px'
                 borderColor='blue.500'
                 rounded='none'
+                color={'#fff'}
               >
                 {btns[0]}
               </Button>
