@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/typescript-cards/static/js/main.4429ffa7.js",
+    "static/js/787.28cb0dcd.chunk.js": "/typescript-cards/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/typescript-cards/index.html",
+    "main.4429ffa7.js.map": "/typescript-cards/static/js/main.4429ffa7.js.map",
+    "787.28cb0dcd.chunk.js.map": "/typescript-cards/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4429ffa7.js"
+  ]
+}
